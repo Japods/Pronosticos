@@ -111,11 +111,9 @@
 
 .infoCont{
     position: absolute;
-    margin: auto;
     left: 0;
     right: 0;
-    top: 140px;
-    bottom: 0;
+    top: 260px;
     height: 500px;
 }
 
