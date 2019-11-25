@@ -1,0 +1,197 @@
+.completed{
+    width: 100%;
+}
+
+.interline{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#079307 0%, #00e200 100%);
+    filter: drop-shadow(0px 3px 41px rgba(0, 0, 0, 0.61));
+}
+
+.backgroundSection1{
+    background-image: url("assets/background.svg");
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    height: 100vh;
+}
+
+.registerButton{
+    background: linear-gradient(#079307 0%, #00e200 100%);
+    border-radius: 5px;
+    height: 50px;
+    position: relative;
+    top: 9px;
+}
+
+.navbar{
+    background: transparent;
+    backdrop-filter: blur(29px);
+    --webkit-backdrop-filter: blur(29px);
+    background-color: rgba(0, 0, 0, 0.28);
+    color: white;
+    font-weight: bold;
+    z-index: 2;
+    text-align: center;
+}
+
+.menu{
+    line-height: 4;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.padding{
+    padding: 0!important;
+}
+
+.imageInicio{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.wave{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+}
+
+.title{
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 195px;
+    left: 110px;
+}
+.title2{
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.nameEquip{
+    color: white;
+    font-weight: 600;
+}
+
+.number{
+    color: white;
+    font-weight: 600;
+    font-size: 34px;
+}
+
+
+.art{
+    background: linear-gradient(#079307 0%, #00e200 100%);
+    position: relative;
+    height: 100vh;
+    right: 24px;
+    transform: rotate(3deg);
+    width: 6000px;
+    top: 170px;
+}
+.art2{
+    background: #2E2E2E;
+    position: relative;
+    height: 100vh;
+    right: 24px;
+    transform: rotate(3deg);
+    width: 6000px;
+    top: 170px;
+}
+
+.infoCont{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 140px;
+    bottom: 0;
+    height: 500px;
+}
+
+.parrafe{
+    font-size: 24px;
+}
+
+.greePro{
+    color: #02D902;
+}
+
+.pronostic{
+    height: 500px;
+    background-color: #1B1B1B;
+    border-radius: 14px;
+    margin-bottom: 50px;
+}
+
+.selected{
+    position: relative;
+    background: #1B1B1B;
+    height: 50px;
+    right: 45px;
+    bottom: 15px;
+    border-top-left-radius: 14px;
+}
+
+.secondItem{
+    position: relative;
+    height: 50px;
+    right: 44px;
+    bottom: 15px;
+    cursor: pointer;
+}
+
+.headerPro{
+    background: #2E2E2E;
+    height: 50px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    background: #202020;
+    border-radius: 50%;
+    position: relative;
+}
+
+.inLive{
+    background: #FF3C41;
+    width: 70px;
+    color: white;
+    border-radius: 4px;
+    position: absolute;
+    right: -36px;
+    margin: auto;
+    top: 0px;
+    bottom: 0;
+    height: 25px;
+}
+
+.VS{
+    width: 70px;
+    color: white;
+    border-radius: 4px;
+    position: absolute;
+    right: -36px;
+    margin: auto;
+    top: -100px;
+    bottom: 0;
+    height: 25px;
+    font-size: 24px;
+}
+
+.topping{
+    margin-top: 20px;
+}
