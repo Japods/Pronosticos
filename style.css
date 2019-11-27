@@ -122,17 +122,17 @@
 
 .art{
     background: linear-gradient(#079307 0%, #00e200 100%);
-    position: relative;
-    height: 130vh;
+    /*position: relative;*/
+    height: 100vh;
     right: 24px;
-    transform: rotate(3deg);
+    /*transform: rotate(3deg);*/
     width: 6000px;
-    top: 170px;
+    top: 40px;
 }
 .art2{
     background: #2E2E2E;
     position: relative;
-    height: 100vh;
+    height: 120vh;
     right: 24px;
     /*transform: rotate(3deg);*/
     width: 6000px;
@@ -142,7 +142,7 @@
 .art3{
     background: linear-gradient(#079307 0%, #00e200 100%);
     position: relative;
-    height: 130vh;
+    height: 105vh;
     right: 24px;
     /*transform: rotate(3deg);*/
     width: 6000px;
@@ -307,10 +307,20 @@
 }
 
 .cards {
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
+    margin: auto;
+}
+
+.main {
+    width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+	padding: 52px 0;
 }
 
 .card {
@@ -365,4 +375,84 @@
     background-color: #079307; 
     opacity: 0.7; 
     font-weight: 700;
+}
+
+.plan--cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.plan--card {
+    width: 20%;
+    height: 315px;
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
+.card--title-bronze {
+    font-size: 16px;
+    margin-top: 36px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background-color: #cd7f32;
+    color: #FFF;
+    height: 60px;
+    padding-left: 95px;
+    font-weight: 400;
+}
+
+.card--title-silver {
+    font-size: 16px;
+    margin-top: 36px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background-color:#C0C0C0;
+    color: #FFF;
+    height: 60px;
+    padding-left: 95px;
+    font-weight: 400;
+}
+
+.card--title-gold {
+    font-size: 16px;
+    margin-top: 36px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background-color: #FFD700;
+    color: #FFF;
+    height: 60px;
+    padding-left: 95px;
+    font-weight: 400;
+}
+
+.plans {
+    margin: 3px;
+    color: gray;
+    list-style: none;
+}
+
+.plans {
+    text-align: center; 
+    width: 90%; 
+    margin: auto;
+    font-size: 13px; 
+    margin-top: 18px; 
+    padding: 0px 20px;
+}
+
+ul .plan::before {
+    content: "\2022";
+    color: #00FF00;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.plans-price {
+    margin-top: 15px;
+    font-size: 28px;
+    color: gray;
 }
