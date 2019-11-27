@@ -15,6 +15,7 @@
     background-size: cover;
     position: absolute;
     height: 100vh;
+    z-index: -1;
 }
 
 .registerButton{
@@ -23,6 +24,9 @@
     height: 50px;
     position: relative;
     top: 9px;
+    color: white;
+    width: 200px;
+    line-height: 4.5;
 }
 
 .navbar{
@@ -34,6 +38,21 @@
     font-weight: bold;
     z-index: 2;
     text-align: center;
+}
+
+.proInput{
+    margin-bottom: 20px;
+    width: 80%!important;
+    height: 50px!important;
+    float: right;
+    border-radius: 10px;
+}
+.proInputRight{
+    margin-bottom: 20px;
+    width: 80%!important;
+    height: 50px!important;
+    float: left;
+    border-radius: 10px;
 }
 
 .menu{
@@ -192,4 +211,11 @@
 
 .topping{
     margin-top: 20px;
+}
+
+
+.dropdownPro{
+    width: 80%;
+    float: right;
+    height: 50px;
 }
