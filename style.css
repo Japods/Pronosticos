@@ -546,6 +546,198 @@ ul .plan::before {
     width: 80px;
 }
 
+.plan--card {
+    width: 70%;
+    height: 330px;
+    background-color: #FFF;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.card--title-bronze {
+    font-size: 16px;
+    margin-top: 32px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background-color: #cd7f32;
+    color: #FFF;
+    height: 60px;
+    padding-left: 150px;
+    text-align: center;
+}
+
+.card--title-silver {
+    font-size: 16px;
+    margin-top: 32px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background-color:#C0C0C0;
+    color: #FFF;
+    height: 60px;
+    padding-left: 150px;
+    text-align: center;
+}
+
+.card--title-gold {
+    font-size: 16px;
+    margin-top: 32px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background-color: #FFD700;
+    color: #FFF;
+    height: 60px;
+    padding-left: 150px;
+    text-align: center;
+}
+
+
+.plans {
+    margin: 3px;
+    color: gray;
+    list-style: none;
+    line-height: 2;
+    text-align: left; 
+    width: 80%; 
+    font-size: 13px; 
+    margin: 18px auto 0 18px; 
+    padding: 0px 20px;
+}
+
+ul .plan::before {
+    content: "\2022";
+    color: #00FF00;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.plans-price {
+    margin-top: 10px;
+    font-size: 28px;
+    color: gray;
+    text-align: center;
+}
+
+.premium-img {
+    position: relative; 
+    width: 45%; 
+    top: -190px;
+}
+
+.premium-card {
+    position: absolute;
+    top: -130px;
+    width: 350px;
+    text-align: center;
+}
+
+.premium-title {
+    font-size: 28px;
+}
+
+.premium-title p {
+    color: #FFF;
+    text-shadow: 2px 1px #333;
+}
+
+.premium-ul {
+    margin: 3px;
+    color: #333;
+    font-weight: bold;
+    line-height: 2;
+    text-align: left; 
+    width: 80%; 
+    font-size: 16px; 
+    margin: 15px auto 0 60px; 
+    padding: 0px 20px;
+}
+
+.premium-ul .li::before {
+    content: "\2022";
+    color: #333;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.premium-button {
+    margin-top: 30px;
+}
+
+.premium-button .btn{
+    background-color: #2A2828;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 15px 30px;
+    box-shadow: 1px 1px #333;
+}
+
+.premium-button .btn:hover{
+    color: #FFF;
+}
+
+.sports-historic {
+    position: relative;
+    width: 50%; 
+    height: 70px; 
+    background-color: #FFF;
+    float: right;
+    transform: skew(-8deg);
+    top: -300px;
+}
+
+.statics {
+    background-color: #2A2828;
+    padding: 10px 15px;
+    height: 420px;
+}
+
+.statics-title {
+    color: #FFF;
+    margin-top: 12px;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #00FF00;
+    width: 90%;
+    margin: 15px auto;
+}
+
+.statics-list ul {
+    color: #FFF;
+    list-style: none;
+    text-align: right;
+    margin-right: 24px;
+    line-height: 2;
+}
+
+.statics-list ul {
+    font-size: 15px;
+}
+
+.aliases {
+    width: 260px;
+    height: 90px;
+    position: relative;
+    top: -150px;
+    margin: auto;
+}
+
+.border-left {
+    border-left: 1px solid #333;
+}
+
+.aliases img {
+    width: 80%;
+    padding-right: 45px;
+}
+.align-aliase img{
+    margin-bottom: 25px;
+}
+
 @media screen and (max-width: 1230px) {
     .padding .registerButton {
         width: 150px;
