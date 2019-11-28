@@ -2,6 +2,11 @@
     width: 100%;
 }
 
+.landing-image {
+    width: 100%;
+    position: absolute;
+}
+
 .landingBack{
     background-image: url("assets/backgroundlanding.svg");
 }
@@ -539,4 +544,27 @@ ul .plan::before {
     bottom: 30px;
     left: 30px;
     width: 80px;
+}
+
+@media screen and (max-width: 1230px) {
+    .padding .registerButton {
+        width: 150px;
+    }
+
+    .banquillo {
+        margin-left: 150px !important;
+    }
+
+    .menu {
+        font-size: 14px
+    }
+
+    .pronostic {
+        height: 450px;
+    }
+
+    .calendar {
+        margin: 16px auto;
+    }
+    
 }
