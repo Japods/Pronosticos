@@ -146,6 +146,7 @@
     height: 80px;
     position: fixed;
     bottom: 0;
+    z-index: 1000000;
 }
 
 .marker {
