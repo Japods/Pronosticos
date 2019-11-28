@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="8555" viewBox="0 0 1920 8555">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#079307"/>
+      <stop offset="1" stop-color="#00e200"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="1" y1="1" x2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2e2e2e"/>
+      <stop offset="1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="1" y1="1" x2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#079307"/>
+      <stop offset="1" stop-color="lime"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x2="1" y2="1.019" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#090909"/>
+      <stop offset="1" stop-color="#525252"/>
+    </linearGradient>
+    <filter id="Path_36" x="-60" y="7650" width="2040" height="1194.328" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feFlood flood-opacity="0.271"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-8" x2="1.491" y2="1.483" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#171717"/>
+      <stop offset="1" stop-color="#393939"/>
+    </linearGradient>
+    <filter id="Path_34" x="-61.5" y="813.5" width="2043" height="1197.328" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20.5" result="blur-2"/>
+      <feFlood flood-opacity="0.612"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-10" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d1d1d1"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-11" x1="0.045" y1="0.263" x2="1.045" y2="0.577" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffee76"/>
+      <stop offset="1"/>
+    </linearGradient>
+    <filter id="Ellipse_24" x="1590" y="5341" width="588" height="590" filterUnits="userSpaceOnUse">
+      <feOffset dy="11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Landing_final_V1_-_1_1">
+      <rect width="1920" height="8555"/>
+    </clipPath>
+  </defs>
+  <g id="Landing_final_V1_-_1_1" data-name="Landing final V1 - 1 – 1" clip-path="url(#clip-Landing_final_V1_-_1_1)">
+    <rect width="1920" height="8555" fill="#fff"/>
+    <circle id="Ellipse_14" data-name="Ellipse 14" cx="178" cy="178" r="178" transform="translate(1625 1878)" fill="url(#linear-gradient)"/>
+    <path id="Path_2" data-name="Path 2" d="M0,0,1920,183.658v890.67L0,891.392Z" transform="translate(1920 3816.328) rotate(180)" fill="url(#linear-gradient-2)"/>
+    <path id="Path_35" data-name="Path 35" d="M0,0,1920,183.658v890.67L0,891.392Z" transform="translate(1920 5581.328) rotate(180)" fill="url(#linear-gradient-2)"/>
+    <path id="Path_33" data-name="Path 33" d="M0,0,1920,183.658v890.67L0,891.392Z" transform="translate(1920 4693.328) rotate(180)" fill="url(#linear-gradient-4)"/>
+    <path id="Path_66" data-name="Path 66" d="M0,300,1920,491.644V1108L0,917.109Z" transform="translate(1922 8190) rotate(180)" fill="#eee"/>
+    <circle id="Ellipse_12" data-name="Ellipse 12" cx="285" cy="285" r="285" transform="translate(1463 2457)" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_13" data-name="Ellipse 13" cx="285" cy="285" r="285" transform="translate(-170 2229)" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_11" data-name="Ellipse 11" cx="6" cy="6" r="6" transform="translate(203 2063)" fill="#ff3c41"/>
+    <text id="NOSOTROS_" data-name="NOSOTROS |" transform="translate(104 1064)" font-size="41" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">NOSOTROS |</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_36)">
+      <path id="Path_36-2" data-name="Path 36" d="M0,0H1920V1074.328L0,891.392Z" transform="translate(1920 8781.33) rotate(180)" fill="url(#linear-gradient-7)"/>
+    </g>
+    <g id="Group_115" data-name="Group 115" transform="translate(0 560)">
+      <g id="Group_121" data-name="Group 121">
+        <path id="Path_104" data-name="Path 104" d="M0-240,1920-56.342v1130.67L0,891.392Z" transform="translate(1920 6470.328) rotate(180)" fill="url(#linear-gradient-8)"/>
+      </g>
+      <path id="Path_107" data-name="Path 107" d="M-14111.664,5828.452l1074.377-370.687" transform="translate(14222 50)" fill="none" stroke="#05bb05" stroke-width="3"/>
+      <path id="Path_106" data-name="Path 106" d="M-14222,5715l1175.63,763.562,745.339-415.82" transform="translate(14222 91)" fill="none" stroke="#04ba04" stroke-width="4"/>
+    </g>
+    <g id="Group_112" data-name="Group 112">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_34)">
+        <path id="Path_34-2" data-name="Path 34" d="M0,0,1920,183.658v890.67L0,891.392Z" transform="translate(1920 1946.33) rotate(180)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <path id="Path_100" data-name="Path 100" d="M0,300,1920,483.658v590.67L0,891.392Z" transform="translate(1920 6441.328) rotate(180)" fill="url(#linear-gradient-10)"/>
+    <line id="Line_18" data-name="Line 18" x2="923" y2="482" transform="translate(-41.5 5558.5)" fill="none" stroke="#d1d1d1" stroke-width="5"/>
+    <line id="Line_17" data-name="Line 17" y1="379" x2="1103" transform="translate(603.5 5517.5)" fill="none" stroke="#d1d1d1" stroke-width="5"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_24)">
+      <circle id="Ellipse_24-2" data-name="Ellipse 24" cx="285" cy="285" r="285" transform="translate(1599 5341)" fill="url(#linear-gradient-11)"/>
+    </g>
+    <circle id="Ellipse_23" data-name="Ellipse 23" cx="285" cy="285" r="285" transform="translate(-251 5524)" fill="url(#linear-gradient-11)"/>
+    <line id="Line_19" data-name="Line 19" y1="71" x2="214" transform="translate(1706.5 6048.5)" fill="none" stroke="#d9d9d9" stroke-width="5"/>
+  </g>
+</svg>

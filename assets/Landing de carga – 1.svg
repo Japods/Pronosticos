@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1072" viewBox="0 0 1920 1072">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1.491" y2="1.483" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#171717"/>
+      <stop offset="1" stop-color="#393939"/>
+    </linearGradient>
+    <clipPath id="clip-Landing_de_carga_1">
+      <rect width="1920" height="1072"/>
+    </clipPath>
+  </defs>
+  <g id="Landing_de_carga_1" data-name="Landing de carga – 1" clip-path="url(#clip-Landing_de_carga_1)">
+    <rect width="1920" height="1072" fill="#fff"/>
+    <rect id="Rectangle_41" data-name="Rectangle 41" width="1920" height="2174" fill="#1a1d23"/>
+    <g id="Group_115" data-name="Group 115" transform="translate(0 -5517)">
+      <g id="Group_121" data-name="Group 121">
+        <path id="Path_104" data-name="Path 104" d="M0-240,1920-56.342v1130.67L0,891.392Z" transform="translate(1920 6470.328) rotate(180)" fill="url(#linear-gradient)"/>
+      </g>
+      <path id="Path_107" data-name="Path 107" d="M-14111.664,5828.452l1074.377-370.687" transform="translate(14222 50)" fill="none" stroke="#05bb05" stroke-width="3"/>
+      <path id="Path_106" data-name="Path 106" d="M-14222,5715l1175.63,763.562,745.339-415.82" transform="translate(14222 91)" fill="none" stroke="#04ba04" stroke-width="4"/>
+    </g>
+  </g>
+</svg>
