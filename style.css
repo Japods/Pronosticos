@@ -144,6 +144,8 @@
     width: 100%; 
     background-color: #2A2828; 
     height: 80px;
+    position: fixed;
+    bottom: 0;
 }
 
 .marker {
