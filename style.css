@@ -621,19 +621,19 @@ ul .plan::before {
 
 .premium-img {
     position: relative; 
-    width: 45%; 
-    top: -190px;
+    width: 40%; 
+    top: -105px;
 }
 
 .premium-card {
     position: absolute;
-    top: -130px;
+    top: -60px;
     width: 350px;
     text-align: center;
 }
 
 .premium-title {
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .premium-title p {
@@ -647,10 +647,11 @@ ul .plan::before {
     font-weight: bold;
     line-height: 2;
     text-align: left; 
-    width: 80%; 
-    font-size: 16px; 
-    margin: 15px auto 0 60px; 
+    width: 75%; 
+    font-size: 14px; 
+    margin: 15px auto 0 70px; 
     padding: 0px 20px;
+    list-style: none;
 }
 
 .premium-ul .li::before {
@@ -670,7 +671,7 @@ ul .plan::before {
     background-color: #2A2828;
     border-radius: 5px;
     color: #FFF;
-    padding: 15px 30px;
+    padding: 10px 20px;
     box-shadow: 1px 1px #333;
 }
 
@@ -710,19 +711,17 @@ ul .plan::before {
     color: #FFF;
     list-style: none;
     text-align: right;
-    margin-right: 24px;
-    line-height: 2;
-}
-
-.statics-list ul {
-    font-size: 15px;
+    padding-right: 24px;
+    line-height: 2.5;
+    font-size: 12px;
+    width: 100%;
 }
 
 .aliases {
     width: 260px;
     height: 90px;
     position: relative;
-    top: -50px;
+    top: -80px;
     margin: auto;
 }
 
