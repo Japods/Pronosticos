@@ -421,7 +421,11 @@
     font-weight: 400;
 }
 
-.plans {
+.planes {
+	height: 65vh!important;
+}
+
+/*.plans {
     margin: 3px;
     color: gray;
     list-style: none;
@@ -434,7 +438,7 @@
     font-size: 13px; 
     margin-top: 18px; 
     padding: 0px 20px;
-}
+}*/
 
 ul .plan::before {
     content: "\2022";
@@ -738,6 +742,67 @@ ul .plan::before {
     margin-bottom: 25px;
 }
 
+.mailing {
+	position: relative;
+}
+
+.mailing input {
+	padding: 10px 15px;
+	border-radius: 5px;
+	margin: 5px 8px;
+	width: 35%;
+}
+
+.register-btn {
+	background: linear-gradient(#079307 0%, #00e200 100%);
+    border-radius: 5px;
+    height: 45px;
+    position: relative;
+    top: 9px;
+    width: 200px;
+    color: #FFF;
+    border-color: #079307; 
+    font-weight: 500;
+}
+
+.QA {
+	position: relative;
+	width: 100%; 
+	margin: 15px 40px;
+}
+
+.QA ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.QA ul li {
+	color: #FFF;
+	font-size: 12px;
+	margin: 5px 15px;
+	cursor: pointer;
+}
+
+footer {
+	margin-top: 30px;
+}
+
+footer div {
+	color: #FFF;
+}
+
+.logo {
+	text-align: left;
+	font-size: 11px;
+}
+
+.copy {
+	font-size: 11px;
+	text-align: right;
+}
+
 @media screen and (max-width: 1280px) {
     .padding .registerButton {
         width: 150px;
@@ -757,6 +822,10 @@ ul .plan::before {
 
     .calendar {
         margin: 16px auto;
+    }
+
+    .planes {
+    	height: 80vh!important;
     }
     
 }
