@@ -795,7 +795,10 @@ footer div {
 
 .logo {
 	text-align: left;
-	font-size: 11px;
+}
+
+.logo img {
+    width: 150px;
 }
 
 .copy {
