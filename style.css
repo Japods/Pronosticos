@@ -622,14 +622,15 @@ ul .plan::before {
 .premium-img {
     position: relative; 
     width: 40%; 
-    top: -105px;
+    top: 15px;
 }
 
 .premium-card {
     position: absolute;
-    top: -60px;
+    top: 0px;
     width: 350px;
     text-align: center;
+    margin-top: 85px;
 }
 
 .premium-title {
@@ -686,7 +687,7 @@ ul .plan::before {
     background-color: #FFF;
     float: right;
     transform: skew(-8deg);
-    top: -300px;
+    bottom: 80px;
 }
 
 .statics {
@@ -721,7 +722,7 @@ ul .plan::before {
     width: 260px;
     height: 90px;
     position: relative;
-    top: -80px;
+    top: 50px;
     margin: auto;
 }
 
@@ -737,7 +738,7 @@ ul .plan::before {
     margin-bottom: 25px;
 }
 
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 1280px) {
     .padding .registerButton {
         width: 150px;
     }
