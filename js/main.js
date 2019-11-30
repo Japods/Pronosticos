@@ -1,3 +1,11 @@
+$(document).ready(function() {
+	setTimeout("fade()", 3000)
+});
+
+function fade() {
+	$(".loader").css("display", "none");
+}
+
 $(window).on("scroll", function() {
     let scrollHeight = $(document).height();
     let scrollPosition = $(window).height() + $(window).scrollTop();

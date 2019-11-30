@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>PronosticosDDS - Loader</title>
+</head>
+
+<style>
+	.loader {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 9999;
+		background-color: #333;
+		width: 100%;
+		height: 100%;
+		display: block;
+		text-align: center;
+	}
+
+	.loader img {
+		margin-top: 250px;
+	}
+
+	span {
+		font-size: 24px;
+		color: lightgray;
+	}
+</style>
+
+<body>
+	<div class="loader">
+		<img src="assets/Layer 5.svg" alt="">
+		<p>
+			<span>CARGANDO...</span>
+		</p>
+
+	</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script>
+	$(document).ready(function() {
+		setTimeout(function () {
+			window.location = 'newLanding.html';
+		}, 3000)
+	});
+</script>
+</html>
