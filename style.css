@@ -2,6 +2,15 @@
     width: 100%;
 }
 
+.landing-image {
+    width: 100%;
+    position: absolute;
+}
+
+.landingBack{
+    background-image: url("assets/backgroundlanding.svg");
+}
+
 .interline{
     width: 100%;
     height: 100vh;
@@ -15,18 +24,16 @@
     background-size: cover;
     position: absolute;
     height: 100vh;
-    z-index: -1;
+    opacity: 0.8;
 }
 
 .registerButton{
     background: linear-gradient(#079307 0%, #00e200 100%);
     border-radius: 5px;
-    height: 50px;
+    height: 45px;
     position: relative;
     top: 9px;
-    color: white;
-    width: 200px;
-    line-height: 4.5;
+    width: 250px;
 }
 
 .navbar{
@@ -35,7 +42,6 @@
     --webkit-backdrop-filter: blur(29px);
     background-color: rgba(0, 0, 0, 0.28);
     color: white;
-    font-weight: bold;
     z-index: 2;
     text-align: center;
 }
@@ -85,16 +91,47 @@
 
 .title{
     color: white;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 600;
     position: absolute;
     bottom: 195px;
     left: 110px;
 }
+
+.btn--register {
+    background: linear-gradient(#079307 0%, #00e200 100%);
+    border-color: #079307;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    top: 9px;
+    color: #FFF;
+    padding: 10px 40px;
+    font-weight: 400;
+}
+
+
 .title2{
-    color: white;
-    font-size: 22px;
-    font-weight: 600;
+    color: #FFF;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 5px;
+}
+
+.title3{
+    color: #FFF;
+    font-size: 20px;
+    text-align: center;
+    line-height: 5px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.subtitle {
+    margin-bottom: 48px;
+    color: lightgray;
+    font-size: 18px;
+    position: relative;
 }
 
 .nameEquip{
@@ -110,34 +147,92 @@
 
 
 .art{
-    background: linear-gradient(#079307 0%, #00e200 100%);
-    position: relative;
+    background: url("assets/landingPage.svg");
+    /*position: relative;*/
     height: 100vh;
     right: 24px;
-    transform: rotate(3deg);
-    width: 6000px;
-    top: 170px;
+    /*transform: rotate(3deg);*/
+    width: 100%;
+    top: 40px;
 }
-.art2{
-    background: #2E2E2E;
-    position: relative;
-    height: 100vh;
-    right: 24px;
-    transform: rotate(3deg);
-    width: 6000px;
-    top: 170px;
+/*  */
+
+.markers {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%; 
+    background-color: #2A2828; 
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000000;
+}
+
+.marker {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px 15px;
+}
+
+.match-active {
+    width: 5px; 
+    height: 5px; 
+    border-radius: 50%; 
+    background: #FF0000;
+}
+
+.icon-sport img {
+    padding: 12px 0px;
+    margin: 0px 5px;
+    width: 17px;
+}
+
+.sports {
+    width: 27%;
+    display: flex; 
+    flex-direction: row;
+    color: #FFF;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.result {
+    width: 25%;
+    margin: 0px 1px;
+}
+
+.green-marker {
+    color: #00FF00;
+}
+
+.matches {
+    display: flex; 
+    flex-direction: row;
+}
+
+.bench-photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 32%;
+}
+
+.bench-logo {
+    width: 90px;
+    margin-top: 90px;
 }
 
 .infoCont{
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 260px;
-    height: 500px;
+    margin-top: 350px;
 }
+
 
 .parrafe{
     font-size: 24px;
+    position: relative;
 }
 
 .greePro{
@@ -149,6 +244,14 @@
     background-color: #1B1B1B;
     border-radius: 14px;
     margin-bottom: 50px;
+    position: relative;
+}
+
+.pronostic-image {
+    width: 220px;
+    height: 180px;
+    margin-top: 64px;
+    padding-right: 24px;
 }
 
 .selected{
@@ -213,9 +316,534 @@
     margin-top: 20px;
 }
 
+.cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    margin: auto;
+}
 
-.dropdownPro{
+.main {
+    width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+	padding: 52px 0;
+}
+
+.card {
+    width: 80%!important;
+    height: 260px;
+    background-color: #FFF; 
+}
+
+.card--title {
+    font-size: 24px;
+    margin-top: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.stats {
+    margin-bottom: 0rem;
+    width: 40%;
+    margin: 1px auto;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.player-match {
+    position: absolute; 
+    width: 219px; 
+    right: -105px;
+}
+
+.team-img {
+    width: 12px;
+}
+
+.calendar {  
     width: 80%;
+    margin: 48px auto;
+}
+
+.calendar-today {
+    border: 2px solid;
+    padding: 5px 40px;
+    border-radius: 5px;
+    border-color: #FFF;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+.calendar-games {
+    border-radius: 5px; 
+    color: #FFF; 
+    background-color: #079307; 
+   font-weight: 700;
+}
+
+.plan--cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.plan--card {
+    width: 20%;
+    height: 315px;
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
+.card--title-bronze {
+    font-size: 16px;
+    margin-top: 36px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background-color: #cd7f32;
+    color: #FFF;
+    height: 60px;
+    padding-left: 95px;
+    font-weight: 400;
+}
+
+.card--title-silver {
+    font-size: 16px;
+    margin-top: 36px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background-color:#C0C0C0;
+    color: #FFF;
+    height: 60px;
+    padding-left: 95px;
+    font-weight: 400;
+}
+
+.card--title-gold {
+    font-size: 16px;
+    margin-top: 36px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background-color: #FFD700;
+    color: #FFF;
+    height: 60px;
+    padding-left: 95px;
+    font-weight: 400;
+}
+
+.planes {
+	height: 65vh!important;
+}
+
+/*.plans {
+    margin: 3px;
+    color: gray;
+    list-style: none;
+}
+
+.plans {
+    text-align: center; 
+    width: 90%; 
+    margin: auto;
+    font-size: 13px; 
+    margin-top: 18px; 
+    padding: 0px 20px;
+}*/
+
+ul .plan::before {
+    content: "\2022";
+    color: #00FF00;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.plans-price {
+    margin-top: 15px;
+    font-size: 28px;
+    color: gray;
+}
+
+
+.grey {
+    background: #2E2E2E;
+    transform: rotate(1.8deg);
+    height: 100vh;
+    min-height: 60rem;
+    height: 100vh;
+    position: relative;
+    box-shadow: 0.5rem 1rem 8rem 0 rgba(0, 0, 0, 0.568);
+}
+.contenido-seccion4 {
+    margin-top: 8rem;
+    padding: 2rem;
+    transform: rotate(-1.8deg);
+}
+.marcelo {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 3rem;
+    font-size: 1.5rem;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.541);
+    transition: 0.3s;
+    text-align: left;
+    position: relative;
+}
+.marcelo blockquote {
+    position: relative;
+    padding-right: 5rem;
+    font-weight: 300;
+}
+.tres-columnas {
+    display: flex;
+    justify-content: space-between;
+}
+.centrar {
+    text-align: center;
+    font-size: 2rem;
+}
+.justify {
+    display: flex;
+    margin-bottom: 2rem;
+}
+.marcelo-tit {
+    margin-left: 2rem;
+    margin-bottom: 0.1rem;
+    font-size: 2.5rem;
+    font-weight: 350;
+}
+.rm-tit {
+    margin-left: 1.8rem;
+    margin-top: none;
+}
+.no-rotate {
+    transform: rotate(-1.8deg);
+}
+
+
+.playerStatic{
+    position: absolute;
+    width: 250px;
+    right: 0;
+    left: 140px;
+    bottom: 0px;
+}
+
+
+.imageStatic{
+    width: 30px;
+    position: absolute;
+    left: 40px;
+    top: 15px;
+}
+
+
+.playerTeam{
+    position: relative;
+    left: 0px;
+    top: 30px;
+    color: #ccc;
+}
+
+.playerName{
+    position: relative;
+    left: 75px;
+    font-size: 20px;
+    top: 10px;
+}    
+
+.starStatic{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    width: 80px;
+}
+
+.plan--card {
+    width: 70%;
+    height: 330px;
+    background-color: #FFF;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.card--title-bronze {
+    font-size: 16px;
+    margin-top: 32px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background-color: #cd7f32;
+    color: #FFF;
+    height: 60px;
+    padding-left: 150px;
+    text-align: center;
+}
+
+.card--title-silver {
+    font-size: 16px;
+    margin-top: 32px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background-color:#C0C0C0;
+    color: #FFF;
+    height: 60px;
+    padding-left: 150px;
+    text-align: center;
+}
+
+.card--title-gold {
+    font-size: 16px;
+    margin-top: 32px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    background-color: #FFD700;
+    color: #FFF;
+    height: 60px;
+    padding-left: 150px;
+    text-align: center;
+}
+
+
+.plans {
+    margin: 3px;
+    color: gray;
+    list-style: none;
+    line-height: 2;
+    text-align: left; 
+    width: 80%; 
+    font-size: 13px; 
+    margin: 18px auto 0 18px; 
+    padding: 0px 20px;
+}
+
+ul .plan::before {
+    content: "\2022";
+    color: #00FF00;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.plans-price {
+    margin-top: 10px;
+    font-size: 28px;
+    color: gray;
+    text-align: center;
+}
+
+.premium-img {
+    position: relative; 
+    width: 40%; 
+    top: 15px;
+}
+
+.premium-card {
+    position: absolute;
+    top: 0px;
+    width: 350px;
+    text-align: center;
+    margin-top: 85px;
+}
+
+.premium-title {
+    font-size: 24px;
+}
+
+.premium-title p {
+    color: #FFF;
+    text-shadow: 2px 1px #333;
+}
+
+.premium-ul {
+    margin: 3px;
+    color: #333;
+    font-weight: bold;
+    line-height: 2;
+    text-align: left; 
+    width: 75%; 
+    font-size: 14px; 
+    margin: 15px auto 0 70px; 
+    padding: 0px 20px;
+    list-style: none;
+}
+
+.premium-ul .li::before {
+    content: "\2022";
+    color: #333;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.premium-button {
+    margin-top: 30px;
+}
+
+.premium-button .btn{
+    background-color: #2A2828;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 10px 20px;
+    box-shadow: 1px 1px #333;
+}
+
+.premium-button .btn:hover{
+    color: #FFF;
+}
+
+.sports-historic {
+    position: relative;
+    width: 50%; 
+    height: 70px; 
+    background-color: #FFF;
     float: right;
-    height: 50px;
+    transform: skew(-8deg);
+    bottom: 80px;
+}
+
+.statics {
+    background-color: #2A2828;
+    padding: 10px 15px;
+    height: 420px;
+}
+
+.statics-title {
+    color: #FFF;
+    margin-top: 12px;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #00FF00;
+    width: 90%;
+    margin: 15px auto;
+}
+
+.statics-list ul {
+    color: #FFF;
+    list-style: none;
+    text-align: right;
+    padding-right: 24px;
+    line-height: 2.5;
+    font-size: 12px;
+    width: 100%;
+}
+
+.aliases {
+    width: 260px;
+    height: 90px;
+    position: relative;
+    top: 50px;
+    margin: auto;
+}
+
+.border-left {
+    border-left: 1px solid #333;
+}
+
+.aliases img {
+    width: 80%;
+    padding-right: 45px;
+}
+.align-aliase img{
+    margin-bottom: 25px;
+}
+
+.mailing {
+	position: relative;
+}
+
+.mailing input {
+	padding: 10px 15px;
+	border-radius: 5px;
+	margin: 5px 8px;
+	width: 35%;
+}
+
+.register-btn {
+	background: linear-gradient(#079307 0%, #00e200 100%);
+    border-radius: 5px;
+    height: 45px;
+    position: relative;
+    top: 9px;
+    width: 200px;
+    color: #FFF;
+    border-color: #079307; 
+    font-weight: 500;
+}
+
+.QA {
+	position: relative;
+	width: 100%; 
+	margin: 15px 40px;
+}
+
+.QA ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.QA ul li {
+	color: #FFF;
+	font-size: 12px;
+	margin: 5px 15px;
+	cursor: pointer;
+}
+
+footer {
+	margin-top: 30px;
+}
+
+footer div {
+	color: #FFF;
+}
+
+.logo {
+	text-align: left;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.copy {
+	font-size: 11px;
+	text-align: right;
+}
+
+@media screen and (max-width: 1280px) {
+    .padding .registerButton {
+        width: 150px;
+    }
+
+    .banquillo {
+        margin-left: 150px !important;
+    }
+
+    .menu {
+        font-size: 14px
+    }
+
+    .pronostic {
+        height: 450px;
+    }
+
+    .calendar {
+        margin: 16px auto;
+    }
+
+    .planes {
+    	height: 80vh!important;
+    }
+    
 }
