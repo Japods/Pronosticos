@@ -12,7 +12,6 @@ $(window).on("scroll", function() {
     if ((scrollHeight - scrollPosition) / scrollHeight === 0) {
         $('.markers').css('display', 'none');
     } else {
-
     	$('.markers').css('display', 'block');
     }
 });
