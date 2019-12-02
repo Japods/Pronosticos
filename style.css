@@ -821,6 +821,61 @@ footer div {
 	text-align: right;
 }
 
+/* REGISTER CSS */
+
+.dropdownPro {
+    float: right;
+    width: 80%;
+    padding: .375rem .75rem;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.dropdown-toggle::after {
+    color: #079307;
+    float: right;
+    margin-top: 10px;
+    border-top: .5em solid !important;
+}
+
+.checkbox {
+    float: right;
+    width: 80% !important;
+    padding: .375rem .75rem !important;
+    height: 30px !important;
+    color: #FFF;
+    display: flex;
+    text-align: left;
+}
+
+.check {
+    height: 24px !important;
+    width: 20% !important;
+}
+
+.badges {
+    float: left;
+    width: 80% !important;
+    padding: .375rem .75rem !important;
+    height: 30px !important;
+}
+
+.badge {
+    padding: .60em 2.50em !important;
+    font-size: 85% !important;
+    font-weight: 600 !important;
+    border-radius: .85rem !important;
+}
+
+.badge::before {
+    content: "x";
+    color: #FFF;
+    font-weight: bold;
+    display: inline-block; 
+    width: 2em;
+    margin-left: -2em;
+}
+
 @media screen and (max-width: 1280px) {
     .padding .registerButton {
         width: 150px;
