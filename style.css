@@ -29,6 +29,14 @@
     height: 100vh;
     opacity: 0.8;
 }
+.backgroundSection2{
+    background-image: url("assets/Web\ 1920\ –\ 1.svg");
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    height: 100vh;
+    opacity: 0.8;
+}
 
 .registerButton{
     background: linear-gradient(#079307 0%, #00e200 100%);
